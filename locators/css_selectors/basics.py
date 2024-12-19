@@ -60,8 +60,6 @@ driver = webdriver.Chrome(service=service_obj)
 #xpath=//tagname[@attribute="value"]
 driver.get("https://online.btes.co.in/login/index.php")
 
-
-
 driver.find_element(By.XPATH,"//input[@id='username']").send_keys("aniket@123")
 time.sleep(2)
 
